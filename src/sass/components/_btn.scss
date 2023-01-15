@@ -1,0 +1,22 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 114px;
+  font-family: $primaryFontFam;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.28;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: $tertiaryText;
+  background-color: $primaryButton;
+  border: 2px solid $primaryButton;
+  outline: transparent;
+  border-radius: 10px;
+}
+
+
+.list__option {
+  list-style-image: url(../../src/images/list-style.svg);
+}
